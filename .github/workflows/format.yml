@@ -17,6 +17,11 @@ jobs:
           # Make sure the value of GITHUB_TOKEN will not be persisted in repo's config
           persist-credentials: false
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ">=21.5.0"
+      - run: npm ci # or yarn install
+
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:

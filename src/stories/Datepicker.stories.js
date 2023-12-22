@@ -2,7 +2,7 @@ import { DateInput } from "date-picker-svelte";
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: "DatePicker",
+  title: "DatePickerJs",
   component: DateInput,
   tags: ["autodocs"],
   argTypes: {

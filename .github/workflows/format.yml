@@ -23,8 +23,5 @@ jobs:
       - run: npm ci # or yarn install
 
       - name: Prettify code
-        uses: creyD/prettier_action@v4.3
-        with:
-          # Only check and fail if the code is not prettified. We rely on pre-commit to ease the formatting.
-          dry: True
-          prettier_options: "--check"
+        run: |
+          npx prettier --check .

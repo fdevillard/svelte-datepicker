@@ -6,3 +6,6 @@ parserOptions:
   ecmaVersion: latest
   sourceType: module
 rules: {}
+ignorePatterns:
+  - "scripts/setupTypeScript.js"
+  - "rollup.config.js"

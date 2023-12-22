@@ -1,6 +1,12 @@
-<script>
+<script context="module">
   import { Meta, Template, Story } from "@storybook/addon-svelte-csf";
-  import { DateInput, DatePicker } from "date-picker-svelte";
+  import { DatePicker } from "date-picker-svelte";
+  export const meta = {
+    title: "DatePicker",
+    component: DatePicker,
+    tags: ["autodocs"],
+    argTyps: {},
+  };
 </script>
 
 <Meta title="Datepicker" component={DatePicker} />

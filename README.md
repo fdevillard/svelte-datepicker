@@ -8,3 +8,9 @@ It's expected to have two date pickers:
 - another custom one.
 
 Both will be added in storybook.
+
+## How to:
+
+```
+npm run storybook
+```

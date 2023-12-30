@@ -17,8 +17,8 @@
   };
 </script>
 
-<script>
-  const min = new Date();
+<script lang="ts">
+  const min: string = new Date();
   min.setDate(min.getDate() - 7);
   const max = new Date();
   max.setDate(max.getDate() + 2);

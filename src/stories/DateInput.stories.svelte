@@ -2,7 +2,7 @@
   import { Template, Story } from "@storybook/addon-svelte-csf";
   import { DateInput } from "date-picker-svelte";
   export const meta = {
-    title: "DateInput",
+    title: "Module - DateInput (Svelte stories)",
     component: DateInput,
     tags: ["autodocs"],
     argTyps: {

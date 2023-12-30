@@ -6,9 +6,10 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear",
+    "start": "sirv dist --no-clear",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "check": "svelte-check"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",
@@ -33,7 +34,13 @@
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^7.1.5",
     "storybook": "^7.6.6",
-    "svelte": "^4.0.0"
+    "svelte": "^4.0.0",
+    "svelte-check": "^3.0.0",
+    "svelte-preprocess": "^5.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "typescript": "^4.9.0",
+    "tslib": "^2.5.0",
+    "@tsconfig/svelte": "^3.0.0"
   },
   "dependencies": {
     "date-picker-svelte": "^2.10.1",
